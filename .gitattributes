@@ -1,0 +1,12 @@
+# Handle line endings automatically for files detected as text
+* text=auto
+
+# Force LF line endings for Jupyter notebooks
+*.ipynb text eol=lf
+
+# Ensure shell scripts use LF
+*.sh text eol=lf
+
+# Ensure Windows batch files use CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
