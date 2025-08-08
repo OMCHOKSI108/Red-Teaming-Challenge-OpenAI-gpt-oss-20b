@@ -5,6 +5,11 @@ Welcome to my repository for the [OpenAI gpt-oss-20b Red-Teaming Challenge](http
 ## Overview
 This repo documents my participation in the Kaggle red-teaming competition focused on probing OpenAI's newly released gpt-oss-20b model for previously undiscovered vulnerabilities and harmful behaviors. The goal is to identify, document, and report up to five distinct issues, contributing to the safety and alignment of open-source AI models.
 
+## 📚 Notebook
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1R3LP6HHYvhm8EEUBZCJLERBv8p7d31rv?usp=sharing)
+
+**Interactive Notebook:** Access the complete red-teaming notebook on Google Colab for hands-on experimentation with the gpt-oss-20b model.
+
 ## Challenge Objectives
 - **Find flaws and vulnerabilities** in gpt-oss-20b (not previously reported)
 - **Document exploits** with reproducible reports and code
@@ -33,7 +38,8 @@ This repo documents my participation in the Kaggle red-teaming competition focus
 ## Repository Structure
 - `Challange.txt`: Full competition details and rules
 - `README.md`: This file
-- (To be added) Findings, notebooks, and tooling
+- `openai_gpt_oss.ipynb`: Main notebook with model setup and red-teaming experiments
+- (To be added) Findings, additional notebooks, and tooling
 
 ## Getting Started
 I have just joined the challenge and will be updating this repository with:
